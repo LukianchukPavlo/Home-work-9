@@ -96,6 +96,7 @@ button {
 .container {
   max-width: 1120px;
   margin-inline: auto;
+  padding-left: 10px;
 }
 
 .description {
