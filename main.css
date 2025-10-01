@@ -269,7 +269,7 @@ padding: 50px;
 .footer{
   background-color: var(--primary-color);
 }
-.menu-icon{  
+.navigation__icon{  
   display: none;
   cursor: pointer;
   width: 30px;
@@ -279,7 +279,7 @@ padding: 50px;
   background-color: transparent;
   border: none;
 }
-.menu-icon span{
+.navigation__icon span{
   display: block;
   height: 4px;
   background: white;
@@ -301,14 +301,14 @@ padding: 50px;
    nav ul li{
     padding: 10px 20px;
    }
-   .menu-icon {
+   .navigation__icon {
     display: flex;
 
    }
-   #menu-toggle:checked + .menu-icon + ul{
+   #menu-toggle:checked + .navigation__icon + ul{
     display: flex;
    }
-   .menu-icon:focus + ul{
+   .navigation__icon:focus + ul{
     display: flex;
    }
    .header {
