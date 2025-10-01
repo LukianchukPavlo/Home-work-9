@@ -303,6 +303,7 @@ padding: 50px;
    }
    .navigation__icon {
     display: flex;
+    
 
    }
    #menu-toggle:checked + .navigation__icon + ul{
@@ -317,4 +318,10 @@ padding: 50px;
    .header__title{
     margin-top: 20px;
    }
+   .container{
+    padding-left: 10px;
+   } 
+   
+
+   
   }
