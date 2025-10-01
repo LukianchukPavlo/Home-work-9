@@ -99,7 +99,7 @@ button {
 }
 
 .description {
-  width: 540px;
+  max-width: 540px;
   color: var(--grey-dark);
 }
 
@@ -134,9 +134,31 @@ button {
 
 .navigation {
   text-transform: uppercase;
+  
 }
 .navigation__list {
   display: flex;
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+  
+}
+@media (max-width: 575px) {
+   .navigation__list{
+    display: block;}
+   .navigation__item:first-child {
+    padding-left: 25px;
+   }
+    
+    
+  
 }
 
 
